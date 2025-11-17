@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1> Astronomía</h1>
+    
+    <div class="menu">
+        <button onclick="ver(1)">Ejercicio 1</button>
+        <button onclick="ver(2)">Ejercicio 2</button>
+        <button onclick="ver(3)">Ejercicio 3</button>
+        <button onclick="ver(4)">Ejercicio 4</button>
+        <button onclick="ver(5)">Ejercicio 5</button>
+    </div>
+
+    <div id="e1" class="ej">
+        <h3>Brillo estelar</h3>
+        <input type="number" id="mag">
+        <button onclick="e1()">Clasificar</button>
+        <p id="r1"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e2" class="ej">
+        <h3>Distancias</h3>
+        <input type="text" id="dis">
+        <button onclick="e2()">Calcular</button>
+        <p id="r2"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e3" class="ej">
+        <h3>Cráteres</h3>
+        <input type="number" id="cra">
+        <button onclick="a3()">Agregar</button>
+        <button onclick="c3()">Contar</button>
+        <p id="r3"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e4" class="ej">
+        <h3>Cuerpo celeste</h3>
+        <select id="cod">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button onclick="e4()">Ver</button>
+        <p id="r4"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e5" class="ej">
+        <h3>Luz</h3>
+        <input type="number" id="luz">
+        <button onclick="a5()">Agregar</button>
+        <button onclick="c5()">Contar</button>
+        <p id="r5"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
